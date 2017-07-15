@@ -2,12 +2,12 @@
   "name": "creative",
   "title": "Creative",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/creative",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
+  "author": "Bootcamped",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -21,10 +21,6 @@
     "jquery": "^1.11.3",
     "magnific-popup": "^1.1.0",
     "scrollreveal": "^3.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
